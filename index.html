@@ -7,7 +7,7 @@
     <title>assignment 2</title>
 </head>
 <body>
-    <nav class="max-w-[1400px] border border-red-500  flex justify-between  align-items: center; mx-auto bg-black py-4">
+    <nav class="max-w-[1400px] border border-red-500  flex justify-around align-items: center; mx-auto bg-black py-4">
         <div>
             <h1 class="text-white">TechWave</h1>
         </div>
@@ -20,10 +20,10 @@
             </ul>
         </div>
         <div>
-            <button class="text-white">Subscribe</button>
+            <button class="text-white bg-gradient-to-r from-[rgb(247,233,63)] via-[rgb(251,9,180)] to-[rgb(145,0,248)] rounded-lg">Subscribe</button>
         </div>
     </nav>
-    <section class="hero relative bg-[url(./assets/hero-bg.png)] max-w-[1400px] max-h-[650px] bg-center mx-auto py-[320px] flex  items-center justify-center">
+    <section class="hero relative bg-[url(./assets/hero-bg.png)] max-w-[1400px] max-h-[750px] bg-center mx-auto py-[320px] flex  items-center justify-center">
         <div class="hero-area">
             <div>
                 <div class="absolute top-[40%] left-[50%] w-85 h-85 transform -translate-x-1/2 -translate-y-1/2"><img class=""  src="assets/hero-circle.png " alt="">
@@ -33,14 +33,42 @@
 
                 <div></div>
             </div>
-            <div class="absolute mx-auto top-[80%] left-[30%] ">
-                <h1 class="text-white">TechWave</h1>
-                <p class="text-white">Your daily dose of tech insights, productivity hacks, and personal growth</p>
-                <div>
-                    <button class="text-white  ">Listen on Spotify</button>
-                    <button class="text-white ">Subscribe</button>
+            <div class="absolute mx-auto top-[68%] left-[37%] ">
+                <h1 class="text-white font-bold text-6xl text-center">TechWave</h1>
+                <p class="text-white text-xs/8 font-normal">Your daily dose of tech insights, productivity hacks, and personal growth</p>
+                <div class="">
+                    <button class="text-white border border-green-500 rounded-full px-[20px] py-[8px] font-semibold">Listen on Spotify</button>
+                    <button class="text-green-500 items-center gap-2 border border-green-500 rounded-full px-[25px] py-[8px] items-center"><img src="assets/message.png" alt=""> Subscribe</button>
                 </div>
             </div>
+        </div>
+    </section>
+    <section class="about max-w-[1400px] bg-black mx-auto py-[50px]">
+        <div class="about-area">
+            <h1 class="about-title text-[40px] font-bold text-center text-white">About the Podcast</h1>
+            <p class="about-sub-title text-[12px] font-normal text-center text-gray-400 pt-[10px]">TechWave is your go-to podcast for staying ahead in the fast-paced world of technology. <br>
+We break down complex topics into digestible insights, explore productivity strategies that actually work, <br>
+and share stories of personal growth from industry leaders.</p>
+            <p class="sub-title2  text-[12px] font-normal text-center text-gray-400 pt-[15px]">Join thousands of young professionals and tech enthusiasts who start their day with TechWave.</p>
+        </div>
+        <div class="review flex gap-[80px] mx-auto flex justify-center items-center pt-[60px]">
+            <div class="review-item">
+                <p class="review-title text-[48px] font-bold text-center items-center text-green-500">150K+</p>
+                <p class="review-sub-title text-[12px] font-normal items-center text-center text-gray-300">Monthly Listeners</p>
+            </div>
+            <div class="review-item">
+                <p class="review-title  text-[48px] font-bold text-center items-center text-green-500">200+</p>
+                <p class="review-sub-title text-[12px] font-normal items-center text-center text-gray-300">Episodes Published</p>
+            </div>
+            <div class="review-item">
+                <p class="review-title  text-[48px] font-bold text-center items-center text-green-500">4.9★</p>
+                <p class="review-sub-title text-[12px] font-normal items-center text-center text-gray-300">Average Rating</p>
+            </div>
+            <div class="review-item">
+                <p class="review-title  text-[48px] font-bold text-center items-center text-green-500">50+</p>
+                <p class="review-sub-title text-[12px] font-normal items-center text-center text-gray-300">Industry Experts</p>
+            </div>
+           
         </div>
     </section>
 </body>
