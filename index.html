@@ -7,9 +7,9 @@
     <title>assignment 2</title>
 </head>
 <body>
-    <nav class="max-w-[1400px] border border-red-500  flex justify-around align-items: center; mx-auto bg-black py-4">
+    <!-- <nav class="max-w-[1400px] flex items-center justify-between mx-auto bg-black py-4 px-6"> -->
         <div>
-            <h1 class="text-white">TechWave</h1>
+            <h1 class="text-white font-bold text-[30px]">Tech<span class="text-fuchsia-700">Wave</span></h1>
         </div>
         <div>
 
@@ -20,10 +20,10 @@
             </ul>
         </div>
         <div>
-            <button class="text-white bg-gradient-to-r from-[rgb(247,233,63)] via-[rgb(251,9,180)] to-[rgb(145,0,248)] rounded-lg">Subscribe</button>
+            <button class="text-white bg-gradient-to-r from-[rgb(247,233,63)] via-[rgb(251,9,180)] to-[rgb(145,0,248)] text-[16px] font-semibold flex items-center rounded-2xl py-[8px] px-[12px]">Subscribe <img class="ml-2" src="assets/ArrowRight.png" alt=""></button>
         </div>
     </nav>
-    <section class="hero relative bg-[url(./assets/hero-bg.png)] max-w-[1400px] max-h-[750px] bg-center mx-auto py-[320px] flex  items-center justify-center">
+    <!-- <section class="hero relative bg-[url(./assets/hero-bg.png)] max-w-[1400px] max-h-[750px] bg-center mx-auto py-[320px] flex  items-center justify-center">
         <div class="hero-area">
             <div>
                 <div class="absolute top-[40%] left-[50%] w-85 h-85 transform -translate-x-1/2 -translate-y-1/2"><img class=""  src="assets/hero-circle.png " alt="">
@@ -35,15 +35,17 @@
             </div>
             <div class="absolute mx-auto top-[68%] left-[37%] ">
                 <h1 class="text-white font-bold text-6xl text-center">TechWave</h1>
-                <p class="text-white text-xs/8 font-normal">Your daily dose of tech insights, productivity hacks, and personal growth</p>
-                <div class="">
-                    <button class="text-white border border-green-500 rounded-full px-[20px] py-[8px] font-semibold">Listen on Spotify</button>
-                    <button class="text-green-500 items-center gap-2 border border-green-500 rounded-full px-[25px] py-[8px] items-center"><img src="assets/message.png" alt=""> Subscribe</button>
+                <p class="text-white text-xs/8 font-normal pt-[8px] pb-[16px]">Your daily dose of tech insights, productivity hacks, and personal growth</p>
+                <div class=" flex gap-2">
+                    <div class="flex">
+                        <button class="text-white border border-green-500 rounded-full px-[20px] py-[8px] font-normal font-semibold flex items-center gap-2"><img src="assets/spotify.png" alt="">Listen on Spotify</button>
+                    </div>
+                    <button class="text-green-500 border border-green-500 rounded-full px-[25px] py-[8px] font-semibold flex items-center gap-2"><img src="assets/message.png" alt=""> Subscribe</button>
                 </div>
             </div>
         </div>
-    </section>
-    <section class="about max-w-[1400px] bg-black mx-auto py-[50px]">
+    </section> -->
+    <!-- <section class="about max-w-[1400px] bg-black mx-auto py-[50px]">
         <div class="about-area">
             <h1 class="about-title text-[40px] font-bold text-center text-white">About the Podcast</h1>
             <p class="about-sub-title text-[12px] font-normal text-center text-gray-400 pt-[10px]">TechWave is your go-to podcast for staying ahead in the fast-paced world of technology. <br>
@@ -70,9 +72,9 @@ and share stories of personal growth from industry leaders.</p>
             </div>
            
         </div>
-    </section>
+    </section> -->
 
-    <section class="choose max-w-[1400px] bg-gray-800 mx-auto bg- py-[100px] px-[180px] mx-auto gap-10">
+    <!-- <section class="choose max-w-[1400px] bg-gray-800 mx-auto bg- py-[100px] px-[180px] mx-auto gap-10">
         <h1 class="text-white font-bold text-[48px] text-center mb-[40px]">Why Choose TechWave</h1>
         <div class="choose-area flex flex-col gap-5">
             <div class="top flex gap-8 mx-auto">
@@ -108,43 +110,55 @@ and share stories of personal growth from industry leaders.</p>
                 </div>
             </div>
         </div>
-    </section>
-    <section class="featured max-w-[1400px] flex justify-center bg-black mx-auto px-[180px] py-[80px] mx-auto">
+    </section> -->
+   
+    <section class="featured max-w-[1400px] flex justify-center bg-[#1A0B2E] mx-auto px-[180px] py-[80px] mx-auto">
         <div class="featured-area">
             <h1 class="featured-title text-white font-bold text-[48px] text-center mb-[40px]">Featured Episodes</h1>
-            <div class="video-container flex gap-[10px]">
-                <div class="border border-gray-500 px-[10px] max-w-[255px] bg-gray-800">
-                    <video src=""></video>
-                    <h1 class="video-title text-[16px]  font-bold text-white">
+            <div class="video-container flex gap-[5px]">
+                <div class="border-gray-500 max-w-[255px] bg-gray-800 rounded-2xl">
+                    
+                    <iframe max-w-[255px] max-h-[220px] class="w-full" src="https://www.youtube.com/embed/brtZuKweDYE?si=VFzdxfSOfsDPuRnL&amp;start=14" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <div class="im-text pl-2">
+                        <h1 class="video-title text-[16px]  font-bold text-white">
                         The Future of AI in Everyday <br> Life
                     </h1>
                     <p class="video-sub-title text-[12px] font-normal items-center text-left text-gray-300">Exploring how artificial intelligence is <br> transforming our daily routines and what to <br> expect in the next decade.</p>
-                    <p class="video-"></p>time
+                    <p class="video-time  text-green-500 font-normal text-[12px] flex gap-2 text-center items-center"><img class="w-3 h-3" src="assets/clock.png" alt="">29 min</p>
+                    </div>
 
                 </div>
-                <div class="border border-gray-500 px-[10px] max-w-[255px] bg-gray-800">
-                    <video src=""></video>
-                    <h1 class="video-title text-[16px]  font-bold text-white">
+                <div class="border border-gray-500 max-w-[255px] bg-gray-800 rounded-2xl">
+                    <div class="max-w-[253px] max-h-[255px]">
+                        <iframe  max-w-[255px] max-h-[220px] class="w-full" src="https://www.youtube.com/embed/vJWzH_2F64g?si=wyVP4JjpmaMZk6D6&amp;start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                   <div class="text-cont pl-2">
+                     <h1 class="video-title text-[16px]  font-bold text-white">
                         Building Better Habits for <br> Remote Work
                     </h1>
                     <p class="video-sub-title  text-[12px] font-normal items-center text-left text-gray-300">Practical strategies for staying productive <br> and maintaining work-life balance in a <br> remote environment.</p>
-                    <p class="video-"></p>time
+                    <p class="video-time text-green-500 font-normal text-[12px] flex gap-2 text-center items-center"><img class="w-3 h-3" src="assets/clock.png" alt="">18 min</p>time
+                   </div>
 
                 </div>
-                <div class="border border-gray-500 px-[10px] max-w-[255px] bg-gray-800">
-                    <video src=""></video>
-                    <h1 class="video-title text-[16px]  font-bold text-white">
+                <div class="border border-gray-500 max-w-[255px] bg-gray-800 rounded-2xl">
+                    <div>
+                        <iframe max-w-[255px] max-h-[220px] class="w-full" src="https://www.youtube.com/embed/icvPLXwbWjM?si=aKOMNr2e2a1g3t6f&amp;start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>29 min</iframe>
+                    </div>
+                    <div class="text-cont pl-2">
+                        <h1 class="video-title text-[16px]  font-bold text-white">
                         Career Growth in Tech: A <br>Roadmap
                     </h1>
                     <p class="video-sub-title  text-[12px] font-normal items-center text-left text-gray-300">Expert advice on navigating your tech <br> career from junior developer to senior <br> leadership roles.</p>
-                    <p class="video-"></p>time
+                    <p class="video-time text-green-500 font-normal text-[12px] flex gap-2 text-center items-center"><img class="w-3 h-3" src="assets/clock.png" alt="">11 min</p>time
+                    </div>
 
                 </div>
                
             </div>
         </div>
     </section>
-    <section class="meet-host max-w-[1400px] mx-auto flex flex-col justify-center px-[180px] bg-gray-900 pb-20">
+    <!-- <section class="meet-host max-w-[1400px] mx-auto flex flex-col justify-center px-[180px] bg-gray-900 pb-20">
         <div class="">
             <h1 class="meet-top-title text-center font-bold text-[40px] text-white pb-[35px] ">Meet the Host</h1>
         </div>
@@ -163,8 +177,8 @@ and share stories of personal growth from industry leaders.</p>
                 </div>
             </div>
         </div>
-    </section>
-    <section class="footer  max-w-[1400px] mx-auto  bg-[url(./assets/footer-bg.png)] p-[100px] bg-center mx-auto flex items-center justify-center">
+    </section> -->
+    <!-- <section class="footer  max-w-[1400px] mx-auto  bg-[url(./assets/footer-bg.png)] p-[100px] bg-center mx-auto flex items-center justify-center">
         <div class="footer-area">
             <h1 class="footer-title font-bold text-6xl text-white text-center">Tech<span class="text-fuchsia-700">Wave</span></h1>
             <div class="flex justify-center items-center gap-5 py-10">
@@ -187,6 +201,6 @@ and share stories of personal growth from industry leaders.</p>
             </div>
             <p class="footer-end font-16px text-gray-400 font-normal items-center justify-center text-center">© 2026 TechWave Podcast. All rights reserved.</p>
         </div>
-    </section>
+    </section> -->
 </body>
 </html>
