@@ -1,0 +1,151 @@
+@media screen and (min-width: 577px) {
+    .humbarg{
+        display: none;
+    }
+}
+
+
+
+@media screen and (max-width: 576px) {
+    .nav-item{
+        display: none;
+    }
+    .nav-btn{
+        display: none;
+    }
+    .hero-text-title{
+        font-size: 30px;
+    }
+    .copmany-logo{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .circle-img{
+       width: 200px;
+       height: 200px; 
+    }
+    .mic{
+        width: 80px;
+        height: 80px;
+    }
+    .hero-img-cont{
+    
+    }
+    .top{
+        display: flex;
+        flex-direction: column;
+    }
+    .top-right-cont{
+        /* display: flex; */
+        /* flex-direction: row; */
+    }
+    /* about */
+    .about-title{
+        font-size: 25px;
+    }
+    .choose-sub-title{
+        text-align: left;
+    }
+
+    .choose{
+        padding: 0;
+    }
+    .choose-title{
+        font-size: 25px;
+    }
+    .top-left{
+        padding: 10px;
+    }
+    .top-right{
+        width: full;
+        display: flex;
+        flex-direction: column;
+    }
+    .botom-right{
+        max-width: 100%;
+        margin: 0;
+    }
+    .botom{
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+    }
+    .choose-text{
+        font-size: 20px;
+        padding: 0;
+    }
+    .review{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+        justify-content: center;
+        text-align: center;
+    }
+    .featured{
+        padding: 0;
+
+    }
+    .featured-title{
+        font-size: 25px;
+    }
+    .video-container{
+        display: flex;
+        flex-direction: column;
+    }
+    /* host section */
+    .meet-host{
+        padding: 0;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .meet-host-img{
+        /* justify-content: center; */
+        margin: 0 auto;
+        padding-top: 70px;
+        padding-bottom: 0;
+    }
+    .meet-top-title{
+        font-size: 25px;
+        text-align: center;
+        align-items: center;
+        background-color: none;
+        
+    }
+    .meet-title{
+        text-align: center;
+        padding-top: 0;
+    }
+    .meet-sub-title{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .meet-host-area{
+        display: flex;
+        flex-direction: column;
+    }
+    .meet-social-link{
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .br-hide{
+        display: none;
+    }
+    /* footer title  */
+    .footer-title{
+        font-size: 25px;
+        padding-top: 30px;
+    }
+    .footer{
+        padding: 0;
+    
+    }
+    .footer-end{
+        font-size: 12px;
+        font-weight: 400;
+        padding-bottom: 20px;
+    }
+    .img-2{
+        padding: 10px;
+    }
+}
